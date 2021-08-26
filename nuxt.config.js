@@ -15,6 +15,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
@@ -24,10 +25,6 @@ export default {
   plugins: [
   ],
 
-  generate: {
-    dir: 'my-site',
-    subFolders: false
-  },
 
   /*static: {
     prefix: false
